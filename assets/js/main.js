@@ -270,3 +270,22 @@ function init() {
     new TypeWriter(txtElement, words, wait);
   }, 1300);
 }
+
+// contact send
+
+const messageForm = document.querySelector('.messageForm');
+const contactSubject = document.querySelector('#contact-subject');
+const contactContent = document.querySelector('#contact-content');
+const sendButton = document.querySelector('#contact-send');
+
+sendButton.addEventListener('click', (event) => {
+  event.preventDefault();
+  const email = 'dingyiheng91@gmail.com';
+  const subject = contactSubject.value;
+  const body = contactContent.value;
+  window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
+});
+
+messageForm.addEventListener('submit', (event) => {
+  event.preventDefault();
+});

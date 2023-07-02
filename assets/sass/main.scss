@@ -317,10 +317,25 @@
   }
 }
 
+#contact-send {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  font-size: 2rem;
+}
+
 @include breakpoint('<=small') {
   .icon-container {
     padding-top: 2rem;
     grid-template-columns: repeat(2, auto);
+  }
+  .overall-title {
+    font-size: 2rem;
+  }
+
+  #contact-send {
+    font-size: 1rem;
   }
 }
 
@@ -335,4 +350,10 @@
   p {
     padding-right: 1rem;
   }
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
 }

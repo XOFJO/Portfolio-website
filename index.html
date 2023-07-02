@@ -19,8 +19,8 @@
       <nav>
         <ul>
           <li><a href="#intro">Intro</a></li>
-          <li><a href="#one">What I Can Do</a></li>
-          <li><a href="#two">Background</a></li>
+          <li><a href="#one">Background</a></li>
+          <li><a href="#two">What I can do</a></li>
           <li><a href="#work">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -56,6 +56,37 @@
     </section>
     <!-- One -->
     <section id="one" class="main style1 dark fullscreen">
+      <div class="content box style2">
+        <header>
+          <h2>Background</h2>
+        </header>
+        <div class="background-text-container">
+          <p class="background-text">
+            I recently graduated from <strong>Boston University</strong> with a
+            Master of Science degree, majoring in
+            <strong>Applied Data Analytics</strong>. Prior to that, I completed
+            my Bachelor's degree in <strong>Mathematics</strong>, with a major
+            in <strong>Statistics-Computing Option</strong>, at the
+            <strong>University of Waterloo</strong>.
+          </p>
+          <p class="background-text">
+            Big data is becoming the trend across industries. As a web
+            developer, I firmly believe that my skills in data analysis and
+            programming can set me apart from other developers in the field.
+          </p>
+          <p class="background-text">
+            During my free time, I usually enjoy going for runs, watching
+            movies, or playing video games. And my favorite game is The Witcher
+            3. It's just so good!
+          </p>
+          <a href=""><strong>View my resume</strong></a>
+        </div>
+      </div>
+      <a href="#two" class="button style2 down anchored">Next</a>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="main style1 dark fullscreen">
       <div class="content box style2">
         <header>
           <div class="skills-container">
@@ -143,37 +174,6 @@
             <img src="../../images/svg/github.svg" class="icon-image" alt="" />
             <h1 class="icon-text">Github</h1>
           </div>
-        </div>
-      </div>
-      <a href="#two" class="button style2 down anchored">Next</a>
-    </section>
-
-    <!-- Two -->
-    <section id="two" class="main style1 dark fullscreen">
-      <div class="content box style2">
-        <header>
-          <h2>Background</h2>
-        </header>
-        <div class="background-text-container">
-          <p class="background-text">
-            I recently graduated from <strong>Boston University</strong> with a
-            Master of Science degree, majoring in
-            <strong>Applied Data Analytics</strong>. Prior to that, I completed
-            my Bachelor's degree in <strong>Mathematics</strong>, with a major
-            in <strong>Statistics-Computing Option</strong>, at the
-            <strong>University of Waterloo</strong>.
-          </p>
-          <p class="background-text">
-            Big data is becoming the trend across industries. As a web
-            developer, I firmly believe that my skills in data analysis and
-            programming can set me apart from other developers in the field.
-          </p>
-          <p class="background-text">
-            During my free time, I usually enjoy going for runs, watching
-            movies, or playing video games. And my favorite game is The Witcher
-            3. It's just so good!
-          </p>
-          <a href=""><strong>View my resume</strong></a>
         </div>
       </div>
       <a href="#work" class="button style2 down anchored">Next</a>
@@ -313,25 +313,31 @@
           </div>
         </header>
         <div class="box">
-          <form method="post" action="#">
-            <div class="fields">
+          <form action="" class="messageForm">
+            <div class="messageDiv">
+              <div class="field half"></div>
               <div class="field half">
-                <input type="text" name="name" placeholder="Name" />
-              </div>
-              <div class="field half">
-                <input type="email" name="email" placeholder="Email" />
+                <input
+                  type="text"
+                  id="contact-subject"
+                  name="subject"
+                  placeholder="Subject*"
+                  required
+                />
               </div>
               <div class="field">
                 <textarea
                   name="message"
-                  placeholder="Message"
+                  placeholder="Message*"
+                  id="contact-content"
                   rows="6"
+                  required
                 ></textarea>
               </div>
             </div>
-            <ul class="actions special">
-              <li><input type="submit" value="Send Message" /></li>
-            </ul>
+            <div class="button-container">
+              <button type="button" id="contact-send">Send Message</button>
+            </div>
           </form>
         </div>
       </div>

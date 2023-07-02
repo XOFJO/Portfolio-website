@@ -1667,10 +1667,24 @@ body.is-touch .main {
   font-weight: bold;
 }
 
+#contact-send {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  font-size: 2rem;
+}
+
 @media screen and (max-width: 736px) {
   .icon-container {
     padding-top: 2rem;
     grid-template-columns: repeat(2, auto);
+  }
+  .overall-title {
+    font-size: 2rem;
+  }
+  #contact-send {
+    font-size: 1rem;
   }
 }
 .background-text-container {
@@ -1684,4 +1698,10 @@ body.is-touch .main {
 }
 .personal-information-container p {
   padding-right: 1rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
 }/*# sourceMappingURL=main.css.map */
