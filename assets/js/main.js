@@ -289,3 +289,10 @@ sendButton.addEventListener('click', (event) => {
 messageForm.addEventListener('submit', (event) => {
   event.preventDefault();
 });
+
+// project to corresponding website
+
+const houseFinder = document.querySelector('#houseFinderItem');
+houseFinder.addEventListener('click', () => {
+  open('https://house-listing-tau.vercel.app/', '_blank');
+});

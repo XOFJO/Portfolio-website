@@ -1536,6 +1536,7 @@ body.is-touch .main {
   position: relative;
   background: lightgrey;
   overflow: hidden;
+  cursor: pointer;
 }
 .item::after {
   content: "";
