@@ -331,7 +331,11 @@
     padding-top: 2rem;
     grid-template-columns: repeat(2, auto);
   }
-  .overall-title {
+  #hello-title {
+    font-size: 2rem;
+  }
+
+  #intro-title {
     font-size: 2rem;
   }
 
@@ -357,4 +361,20 @@
   display: flex;
   justify-content: center;
   margin-top: 2rem;
+}
+
+#work {
+  article {
+    margin-bottom: 2rem;
+  }
+  .project-title {
+    color: gray;
+    text-decoration: underline;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .item {
+    box-shadow: 10px 10px 5px lightgray;
+  }
 }

@@ -1681,7 +1681,10 @@ body.is-touch .main {
     padding-top: 2rem;
     grid-template-columns: repeat(2, auto);
   }
-  .overall-title {
+  #hello-title {
+    font-size: 2rem;
+  }
+  #intro-title {
     font-size: 2rem;
   }
   #contact-send {
@@ -1705,4 +1708,18 @@ body.is-touch .main {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
+}
+
+#work article {
+  margin-bottom: 2rem;
+}
+#work .project-title {
+  color: gray;
+  text-decoration: underline;
+}
+#work .project-title:hover {
+  cursor: pointer;
+}
+#work .item {
+  box-shadow: 10px 10px 5px lightgray;
 }/*# sourceMappingURL=main.css.map */

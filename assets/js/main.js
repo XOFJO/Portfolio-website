@@ -292,7 +292,12 @@ messageForm.addEventListener('submit', (event) => {
 
 // project to corresponding website
 
-const houseFinder = document.querySelector('#houseFinderItem');
-houseFinder.addEventListener('click', () => {
+const homeFinder = document.querySelector('#homeFinderItem');
+homeFinder.addEventListener('click', () => {
+  open('https://house-listing-tau.vercel.app/', '_blank');
+});
+
+const homeFinderTitle = document.querySelector('#homeFinder-title');
+homeFinderTitle.addEventListener('click', () => {
   open('https://house-listing-tau.vercel.app/', '_blank');
 });
