@@ -301,3 +301,13 @@ const homeFinderTitle = document.querySelector('#homeFinder-title');
 homeFinderTitle.addEventListener('click', () => {
   open('https://house-listing-tau.vercel.app/', '_blank');
 });
+
+const movie = document.querySelector('#movieItem');
+movie.addEventListener('click', () => {
+  open('https://sage-lebkuchen-18d0cb.netlify.app/', '_blank');
+});
+
+const movieTitle = document.querySelector('#movie-title');
+movieTitle.addEventListener('click', () => {
+  open('https://sage-lebkuchen-18d0cb.netlify.app/', '_blank');
+});
