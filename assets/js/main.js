@@ -311,3 +311,13 @@ const movieTitle = document.querySelector('#movie-title');
 movieTitle.addEventListener('click', () => {
   open('https://sage-lebkuchen-18d0cb.netlify.app/', '_blank');
 });
+
+const githubSearch = document.querySelector('#GithubItem');
+githubSearch.addEventListener('click', () => {
+  open('https://github-finder-lovat-nine.vercel.app/', '_blank');
+});
+
+const githubTitle = document.querySelector('#github-title');
+githubTitle.addEventListener('click', () => {
+  open('https://github-finder-lovat-nine.vercel.app/', '_blank');
+});
