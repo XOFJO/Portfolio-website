@@ -301,7 +301,7 @@
 }
 
 .icon-container {
-  padding-top: 2rem;
+  padding-top: 1rem;
   display: grid;
   grid-template-columns: repeat(4, auto);
 }
@@ -310,7 +310,6 @@
   padding-top: 1rem;
   transition: transform 1s cubic-bezier(0.2, 1, 0.3, 1);
   &:hover {
-    cursor: pointer;
     transform: scale(1.4);
   }
   .icon-text {
