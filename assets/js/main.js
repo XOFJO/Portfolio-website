@@ -294,7 +294,7 @@ messageForm.addEventListener('submit', (event) => {
 
 const homeFinder = document.querySelector('#homeFinderItem');
 homeFinder.addEventListener('click', () => {
-  open('https://house-listing-tau.vercel.app/', '_blank');
+  open('https://home-finder-tau.vercel.app/', '_blank');
 });
 const homeGit = document.querySelector('#homefinder-github');
 homeGit.addEventListener('click', () => {
@@ -302,7 +302,7 @@ homeGit.addEventListener('click', () => {
 });
 const homeFinderTitle = document.querySelector('#homeFinder-title');
 homeFinderTitle.addEventListener('click', () => {
-  open('https://house-listing-tau.vercel.app/', '_blank');
+  open('https://home-finder-tau.vercel.app/', '_blank');
 });
 
 const movieGit = document.querySelector('#movie-github');
@@ -320,11 +320,11 @@ movieTitle.addEventListener('click', () => {
 
 const githubSearch = document.querySelector('#GithubItem');
 githubSearch.addEventListener('click', () => {
-  open('https://github-finder-lovat-nine.vercel.app/', '_blank');
+  open('https://github-user-search98.vercel.app/', '_blank');
 });
 const githubTitle = document.querySelector('#github-title');
 githubTitle.addEventListener('click', () => {
-  open('https://github-finder-lovat-nine.vercel.app/', '_blank');
+  open('https://github-user-search98.vercel.app/', '_blank');
 });
 const GihubGit = document.querySelector('#githubSearch-github');
 GihubGit.addEventListener('click', () => {
