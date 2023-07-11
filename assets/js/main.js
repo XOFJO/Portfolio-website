@@ -280,7 +280,7 @@ const sendButton = document.querySelector('#contact-send');
 
 sendButton.addEventListener('click', (event) => {
   event.preventDefault();
-  const email = 'dingyiheng91@gmail.com';
+  const email = 'dingyiheng98@gmail.com';
   const subject = contactSubject.value;
   const body = contactContent.value;
   window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
@@ -296,17 +296,23 @@ const homeFinder = document.querySelector('#homeFinderItem');
 homeFinder.addEventListener('click', () => {
   open('https://house-listing-tau.vercel.app/', '_blank');
 });
-
+const homeGit = document.querySelector('#homefinder-github');
+homeGit.addEventListener('click', () => {
+  open('https://github.com/XOFJO/home-finder', '_blank');
+});
 const homeFinderTitle = document.querySelector('#homeFinder-title');
 homeFinderTitle.addEventListener('click', () => {
   open('https://house-listing-tau.vercel.app/', '_blank');
 });
 
+const movieGit = document.querySelector('#movie-github');
+movieGit.addEventListener('click', () => {
+  open('https://github.com/XOFJO/movie-tv-search', '_blank');
+});
 const movie = document.querySelector('#movieItem');
 movie.addEventListener('click', () => {
   open('https://sage-lebkuchen-18d0cb.netlify.app/', '_blank');
 });
-
 const movieTitle = document.querySelector('#movie-title');
 movieTitle.addEventListener('click', () => {
   open('https://sage-lebkuchen-18d0cb.netlify.app/', '_blank');
@@ -316,8 +322,11 @@ const githubSearch = document.querySelector('#GithubItem');
 githubSearch.addEventListener('click', () => {
   open('https://github-finder-lovat-nine.vercel.app/', '_blank');
 });
-
 const githubTitle = document.querySelector('#github-title');
 githubTitle.addEventListener('click', () => {
   open('https://github-finder-lovat-nine.vercel.app/', '_blank');
+});
+const GihubGit = document.querySelector('#githubSearch-github');
+GihubGit.addEventListener('click', () => {
+  open('https://github.com/XOFJO/Github-search', '_blank');
 });
