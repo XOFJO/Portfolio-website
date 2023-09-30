@@ -318,15 +318,15 @@ movieTitle.addEventListener('click', () => {
   open('https://sage-lebkuchen-18d0cb.netlify.app/', '_blank');
 });
 
-const githubSearch = document.querySelector('#GithubItem');
+const githubSearch = document.querySelector('#LocationItem');
 githubSearch.addEventListener('click', () => {
-  open('https://github-user-search98.vercel.app/', '_blank');
+  open('https://subtle-eclair-096a94.netlify.app/', '_blank');
 });
-const githubTitle = document.querySelector('#github-title');
+const githubTitle = document.querySelector('#location-title');
 githubTitle.addEventListener('click', () => {
-  open('https://github-user-search98.vercel.app/', '_blank');
+  open('https://subtle-eclair-096a94.netlify.app/', '_blank');
 });
-const GihubGit = document.querySelector('#githubSearch-github');
+const GihubGit = document.querySelector('#locationSearch-github');
 GihubGit.addEventListener('click', () => {
-  open('https://github.com/XOFJO/Github-search', '_blank');
+  open('https://github.com/XOFJO/Vue-locationSearch', '_blank');
 });
